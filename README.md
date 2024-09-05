@@ -26,7 +26,8 @@ The project uses `matplotlib` and `seaborn` to explore the dataset:
 - **Histograms**: To visualize the distributions of numerical variables.
 - **Box Plots**: To show the relationship between numerical features and the target variable (`is_hazardous`).
 - **Correlation Heatmaps**: To understand relationships between variables and identify potential feature interactions.
-Questions that have been answered by using the above kind of graph:
+  
+Questions that have been answered by using the above kinds of graph:
 - **What is the distribution of hazardous vs. non-hazardous objects?**
 - **How do numerical features (absolute_magnitude, estimated_diameter_min, estimated_diameter_max, relative_velocity, miss_distance) correlate with each other and with is_hazardous?**
 - **What are the distributions of absolute_magnitude, estimated_diameter_min, estimated_diameter_max, relative_velocity, and miss_distance for hazardous vs. non-hazardous objects?**
