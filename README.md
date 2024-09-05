@@ -26,6 +26,13 @@ The project uses `matplotlib` and `seaborn` to explore the dataset:
 - **Histograms**: To visualize the distributions of numerical variables.
 - **Box Plots**: To show the relationship between numerical features and the target variable (`is_hazardous`).
 - **Correlation Heatmaps**: To understand relationships between variables and identify potential feature interactions.
+Questions that have been answered by using the above kind of graph:
+- **What is the distribution of hazardous vs. non-hazardous objects?**
+- **How do numerical features (absolute_magnitude, estimated_diameter_min, estimated_diameter_max, relative_velocity, miss_distance) correlate with each other and with is_hazardous?**
+- **What are the distributions of absolute_magnitude, estimated_diameter_min, estimated_diameter_max, relative_velocity, and miss_distance for hazardous vs. non-hazardous objects?**
+- **How do pairs of features (miss_distance vs. relative_velocity, etc.) relate to each other and to the hazard classification?**
+- **What are the distributions of features (like absolute_magnitude, estimated_diameter_max, estimated_diameter_min, relative_velocity, miss_distance) for hazardous and non-hazardous objects?**
+- **What are the distributions and variances of features like absolute_magnitude, relative_velocity, etc., when split by is_hazardous?**
 
 ### 4. **Model Training and Evaluation**
 Several models are trained on the preprocessed data to predict whether an NEO is hazardous:
