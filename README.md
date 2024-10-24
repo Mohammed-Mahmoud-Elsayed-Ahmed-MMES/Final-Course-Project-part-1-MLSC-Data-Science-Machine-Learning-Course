@@ -53,11 +53,6 @@ The model is capable of predicting the hazardous status of new NEOs. Example cod
 ### 6. 📊 **Model Performance**
 Initial results show good accuracy for non-hazardous objects but room for improvement in detecting hazardous ones due to class imbalance. Future work could focus on improving the model's sensitivity to hazardous NEOs.
 
-### 7. 🚀 **Additional Improvements**
-To further improve the model:
-- **Handle Class Imbalance**: Implement techniques like SMOTE, undersampling, or adjusting class weights.
-- **Consider Additional Models**: Such as Random Forest or Gradient Boosting for potentially better performance.
-
 ## 📜 Instructions for Running the Project
 
 1. **Clone this repository**:
@@ -68,12 +63,7 @@ To further improve the model:
 2. **Extract the dataset**: 
    Ensure you extract the dataset file from the provided zip file before running the notebook.
 
-3. **Install the required libraries**:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-4. **Run the Jupyter Notebook**:
+3. **Run the Jupyter Notebook**:
    ```bash
    jupyter notebook Final-Course_Project_Part1.ipynb
    ```
